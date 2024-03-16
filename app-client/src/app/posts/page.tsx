@@ -1,4 +1,6 @@
-const getPosts = async (): Promise<IPost[]> => {
+import { IPost } from '@/types/types';
+
+const getPosts = async () => {
   try {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
 
@@ -11,13 +13,6 @@ const getPosts = async (): Promise<IPost[]> => {
     throw err;
   }
 };
-
-interface IPost {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
-}
 
 export default async function Posts() {
   const posts: IPost[] = await getPosts();

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: main routes for all posts and all users&#10;&#10;add: Navbar.tsx component displaying routing Links to home, posts and users. As well as integration in layout.tsx component.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: fetching posts with respective error handling, try and catch for error and !res.ok for a bad response from api. &#10;&#10;add: IPost interface &#10;&#10;add: basic layout for mapping posts and displaying titles &#10;&#10;--&gt; Had some TS Errors to fix, so it took a bit longer than expected">
       <change beforePath="$PROJECT_DIR$/app-client/src/app/posts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/posts/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4740" />
+    <option name="totalTimeSeconds" value="4965" />
     <option name="idleThresholdMs" value="150000" />
     <option name="autoCountIdleSeconds" value="50" />
     <option name="gitIntegration" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1710446434589" duration="2134000" />
       <workItem from="1710450024129" duration="2509000" />
       <workItem from="1710491333895" duration="1000" />
-      <workItem from="1710581826235" duration="7211000" />
+      <workItem from="1710581826235" duration="7436000" />
     </task>
     <task id="LOCAL-00001" summary="add: created new next app">
       <option name="closed" value="true" />
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710596079923</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: fetching posts with respective error handling, try and catch for error and !res.ok for a bad response from api. &#10;&#10;add: IPost interface &#10;&#10;add: basic layout for mapping posts and displaying titles &#10;&#10;--&gt; Had some TS Errors to fix, so it took a bit longer than expected">
+      <option name="closed" value="true" />
+      <created>1710599913225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710599913225</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +185,8 @@
     <MESSAGE value="add: installed prettier with respective configurations, as well as format to reformat on save" />
     <MESSAGE value="add: colors and fontFamily to tailwind.config.ts" />
     <MESSAGE value="add: main routes for all posts and all users&#10;&#10;add: Navbar.tsx component displaying routing Links to home, posts and users. As well as integration in layout.tsx component." />
-    <option name="LAST_COMMIT_MESSAGE" value="add: main routes for all posts and all users&#10;&#10;add: Navbar.tsx component displaying routing Links to home, posts and users. As well as integration in layout.tsx component." />
+    <MESSAGE value="add: fetching posts with respective error handling, try and catch for error and !res.ok for a bad response from api. &#10;&#10;add: IPost interface &#10;&#10;add: basic layout for mapping posts and displaying titles &#10;&#10;--&gt; Had some TS Errors to fix, so it took a bit longer than expected" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: fetching posts with respective error handling, try and catch for error and !res.ok for a bad response from api. &#10;&#10;add: IPost interface &#10;&#10;add: basic layout for mapping posts and displaying titles &#10;&#10;--&gt; Had some TS Errors to fix, so it took a bit longer than expected" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
