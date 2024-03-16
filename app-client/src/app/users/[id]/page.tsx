@@ -35,8 +35,16 @@ export default async function UserWithId({ params }: { params: { id: string } })
   return (
     <main className="flex min-h-screen flex-col items-center gap-20 bg-main p-10">
       {/* User Info */}
-      <section className="flex max-w-[300px] flex-col items-start gap-2 rounded-md bg-secondary/20 p-10">
-        {/*<Image src={} alt={} />*/}
+      <section className="flex max-w-[600px] flex-col items-start gap-2 rounded-md bg-secondary/20 p-10">
+        <div className="flex w-full flex-col items-center">
+          <Image
+            src="/images/avatarImage.jpg"
+            alt="Avatar of User"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+        </div>
         <h1 className="w-full text-center font-bold text-4xl tracking-widest text-tertiary">
           {user.username}
         </h1>
