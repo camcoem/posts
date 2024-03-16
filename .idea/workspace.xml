@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: types.ts with respective types for IPost, IUser, IAddress and ICompany.&#10;&#10;change: extracted IPost from posts page, and imported same interface from types.ts">
+    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: fetching users from users page.tsx, as well as minimal layout for displaying names. Still commented out Link component until creating the following needed routes.">
+      <change afterPath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" afterDir="false" />
     </list>
@@ -14,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="5597" />
+    <option name="totalTimeSeconds" value="6721" />
     <option name="idleThresholdMs" value="150000" />
     <option name="autoCountIdleSeconds" value="50" />
     <option name="gitIntegration" value="true" />
@@ -103,7 +104,7 @@
       <workItem from="1710446434589" duration="2134000" />
       <workItem from="1710450024129" duration="2509000" />
       <workItem from="1710491333895" duration="1000" />
-      <workItem from="1710581826235" duration="8084000" />
+      <workItem from="1710581826235" duration="9199000" />
     </task>
     <task id="LOCAL-00001" summary="add: created new next app">
       <option name="closed" value="true" />
@@ -169,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710600550026</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add: fetching users from users page.tsx, as well as minimal layout for displaying names. Still commented out Link component until creating the following needed routes.">
+      <option name="closed" value="true" />
+      <created>1710600770258</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710600770258</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +204,8 @@
     <MESSAGE value="add: main routes for all posts and all users&#10;&#10;add: Navbar.tsx component displaying routing Links to home, posts and users. As well as integration in layout.tsx component." />
     <MESSAGE value="add: fetching posts with respective error handling, try and catch for error and !res.ok for a bad response from api. &#10;&#10;add: IPost interface &#10;&#10;add: basic layout for mapping posts and displaying titles &#10;&#10;--&gt; Had some TS Errors to fix, so it took a bit longer than expected" />
     <MESSAGE value="add: types.ts with respective types for IPost, IUser, IAddress and ICompany.&#10;&#10;change: extracted IPost from posts page, and imported same interface from types.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: types.ts with respective types for IPost, IUser, IAddress and ICompany.&#10;&#10;change: extracted IPost from posts page, and imported same interface from types.ts" />
+    <MESSAGE value="add: fetching users from users page.tsx, as well as minimal layout for displaying names. Still commented out Link component until creating the following needed routes." />
+    <option name="LAST_COMMIT_MESSAGE" value="add: fetching users from users page.tsx, as well as minimal layout for displaying names. Still commented out Link component until creating the following needed routes." />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

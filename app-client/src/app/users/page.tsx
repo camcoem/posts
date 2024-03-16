@@ -22,11 +22,11 @@ export default async function Users() {
     <div className=" h-screen bg-main">
       <ul className="flex flex-col gap-3">
         {users.map((user) => (
-          // <Link href={}>
-          <li key={user.id} className="text-primary">
-            {user.name ?? ''}
-          </li>
-          // </Link>
+          <Link href={`/users/${user.id}`}>
+            <li key={user.id} className="text-primary">
+              {user.name ?? ''}
+            </li>
+          </Link>
         ))}
       </ul>
     </div>
