@@ -1,6 +1,5 @@
 import { IPost, IUser } from '@/types/types';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const getUser = async (id: string) => {
   try {
@@ -34,22 +33,24 @@ export default async function UserWithId({ params }: { params: { id: string } })
   const posts: IPost[] = await getUserPosts(params.id);
 
   return (
-    <main className="flex min-h-screen flex-col  gap-20 bg-main p-10">
+    <main className="flex min-h-screen flex-col items-center gap-20 bg-main p-10">
       {/* User Info */}
-      <section className="flex flex-col items-center">
+      <section className="flex max-w-[300px] flex-col items-start gap-2 rounded-md bg-secondary/20 p-10">
         {/*<Image src={} alt={} />*/}
         <h1 className="w-full text-center font-bold text-4xl tracking-widest text-tertiary">
           {user.username}
         </h1>
-        <p className="text-primary">{user.name}</p>
-        <p className="text-primary">{user.company.name}</p>
-        <p className="text-primary">{user.email}</p>
-        <p className="text-primary">{user.phone}</p>
+        <p className="text-primary">aka: {user.name}</p>
+        <p className="text-primary">work: {user.company.name}</p>
+        <p className="text-primary">@: {user.email}</p>
+        <p className="text-primary">tel: {user.phone}</p>
         <div className="text-primary">
           Address:
-          <p className="text-primary">{user.address.street}</p>
-          <p className="text-primary">{user.address.city}</p>
-          <p className="text-primary">{user.address.zipcode}</p>
+          <div className="pl-10">
+            <p className="text-primary">{user.address.street}</p>
+            <p className="text-primary">{user.address.city}</p>
+            <p className="text-primary">{user.address.zipcode}</p>
+          </div>
         </div>
       </section>
 

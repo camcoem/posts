@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: nested components to also use tailwind in the tailwind.config.ts">
+    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: all info of user displayed, as well as related posts of userId.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" afterDir="false" />
     </list>
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="10061" />
+    <option name="totalTimeSeconds" value="10497" />
     <option name="idleThresholdMs" value="150000" />
     <option name="autoCountIdleSeconds" value="50" />
     <option name="gitIntegration" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1710446434589" duration="2134000" />
       <workItem from="1710450024129" duration="2509000" />
       <workItem from="1710491333895" duration="1000" />
-      <workItem from="1710581826235" duration="13163000" />
+      <workItem from="1710581826235" duration="13596000" />
     </task>
     <task id="LOCAL-00001" summary="add: created new next app">
       <option name="closed" value="true" />
@@ -217,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710603994925</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add: all info of user displayed, as well as related posts of userId.">
+      <option name="closed" value="true" />
+      <created>1710605901522</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710605901522</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +257,8 @@
     <MESSAGE value="add: missing key in Link element within users page" />
     <MESSAGE value="add: getUserPosts fetching posts of respective user with userId." />
     <MESSAGE value="add: nested components to also use tailwind in the tailwind.config.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: nested components to also use tailwind in the tailwind.config.ts" />
+    <MESSAGE value="add: all info of user displayed, as well as related posts of userId." />
+    <option name="LAST_COMMIT_MESSAGE" value="add: all info of user displayed, as well as related posts of userId." />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
