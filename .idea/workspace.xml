@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: styling to posts in page.tsx.&#10;&#10;--&gt; I know DRY wished I could have abstracted the component, had no time :(">
-      <change afterPath="$PROJECT_DIR$/app-client/public/images/avatarImage.jpg" afterDir="false" />
+    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: image of avatar to user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="11313" />
+    <option name="totalTimeSeconds" value="11744" />
     <option name="idleThresholdMs" value="150000" />
     <option name="autoCountIdleSeconds" value="50" />
     <option name="gitIntegration" value="true" />
@@ -110,7 +109,7 @@
       <workItem from="1710446434589" duration="2134000" />
       <workItem from="1710450024129" duration="2509000" />
       <workItem from="1710491333895" duration="1000" />
-      <workItem from="1710581826235" duration="14775000" />
+      <workItem from="1710581826235" duration="15202000" />
     </task>
     <task id="LOCAL-00001" summary="add: created new next app">
       <option name="closed" value="true" />
@@ -248,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710606424894</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add: image of avatar to user">
+      <option name="closed" value="true" />
+      <created>1710607436099</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710607436099</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,8 @@
     <MESSAGE value="add: all info of user displayed, as well as related posts of userId." />
     <MESSAGE value="add: further styling to user info" />
     <MESSAGE value="add: styling to posts in page.tsx.&#10;&#10;--&gt; I know DRY wished I could have abstracted the component, had no time :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: styling to posts in page.tsx.&#10;&#10;--&gt; I know DRY wished I could have abstracted the component, had no time :(" />
+    <MESSAGE value="add: image of avatar to user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: image of avatar to user" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
