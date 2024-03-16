@@ -1,4 +1,4 @@
-import { IUser } from '@/types/types';
+import { IPost, IUser } from '@/types/types';
 
 const getUser = async (id: string) => {
   try {
@@ -13,9 +13,23 @@ const getUser = async (id: string) => {
     throw err;
   }
 };
+const getUserPosts = async (id: string) => {
+  try {
+    const userRes = await fetch(`http://jsonplaceholder.typicode.com/posts?userId=${id}`);
+
+    if (!userRes.ok) {
+      throw new Error('Bad Response!');
+    }
+
+    return await userRes.json();
+  } catch (err) {
+    throw err;
+  }
+};
 
 export default async function UserWithId({ params }: { params: { id: string } }) {
   const user: IUser = await getUser(params.id);
+  const posts: IPost[] = await getUserPosts(params.id);
 
   return (
     <main className="flex min-h-screen flex-col items-start bg-main p-24">
