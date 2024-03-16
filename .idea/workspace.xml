@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: new route of /users/userId, as well as basic layout just checking that page in rendered correctly &#10;&#10;change: uncommented Links in users page.tsx, and added respective href for each /${user.id}.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" afterDir="false" />
+    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: getUser fetching user with id, using id from params. With just a little layout to check in data is being fetched properly">
+      <change beforePath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="7799" />
+    <option name="totalTimeSeconds" value="8048" />
     <option name="idleThresholdMs" value="150000" />
     <option name="autoCountIdleSeconds" value="50" />
     <option name="gitIntegration" value="true" />
@@ -64,7 +63,7 @@
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\webbar\\WebstormProjects\\posts\\app-client\\node_modules\\typescript\\lib&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/app-client/package.json" />
       <command value="run" />
@@ -87,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +102,7 @@
       <workItem from="1710446434589" duration="2134000" />
       <workItem from="1710450024129" duration="2509000" />
       <workItem from="1710491333895" duration="1000" />
-      <workItem from="1710581826235" duration="10595000" />
+      <workItem from="1710581826235" duration="10842000" />
     </task>
     <task id="LOCAL-00001" summary="add: created new next app">
       <option name="closed" value="true" />
@@ -185,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710601900533</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add: getUser fetching user with id, using id from params. With just a little layout to check in data is being fetched properly">
+      <option name="closed" value="true" />
+      <created>1710603375941</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710603375941</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +220,8 @@
     <MESSAGE value="add: types.ts with respective types for IPost, IUser, IAddress and ICompany.&#10;&#10;change: extracted IPost from posts page, and imported same interface from types.ts" />
     <MESSAGE value="add: fetching users from users page.tsx, as well as minimal layout for displaying names. Still commented out Link component until creating the following needed routes." />
     <MESSAGE value="add: new route of /users/userId, as well as basic layout just checking that page in rendered correctly &#10;&#10;change: uncommented Links in users page.tsx, and added respective href for each /${user.id}." />
-    <option name="LAST_COMMIT_MESSAGE" value="add: new route of /users/userId, as well as basic layout just checking that page in rendered correctly &#10;&#10;change: uncommented Links in users page.tsx, and added respective href for each /${user.id}." />
+    <MESSAGE value="add: getUser fetching user with id, using id from params. With just a little layout to check in data is being fetched properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: getUser fetching user with id, using id from params. With just a little layout to check in data is being fetched properly" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
