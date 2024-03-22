@@ -1,5 +1,5 @@
 import { IPost, IUser } from '@/types/types';
-import PostCard from '@/components/Post/PostCard';
+import PostCard from '@/components/PostCard/PostCard';
 import UserCard from '@/components/UserCard/UserCard';
 
 const getUser = async (id: string) => {

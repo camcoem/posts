@@ -1,5 +1,5 @@
 import { IPost } from '@/types/types';
-import PostCard from '@/components/Post/PostCard';
+import PostCard from '@/components/PostCard/PostCard';
 
 const getPosts = async () => {
   try {
