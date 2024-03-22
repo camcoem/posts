@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: responsiveness for PostCard.tsx component">
+    <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: new IPostCard interface with user and isUserPage.&#10;&#10;add: Link to go to user, to link every post to a user and display respective user page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-client/src/app/posts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/posts/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-client/src/components/Post/PostCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/components/Post/PostCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-client/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/components/Navbar/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="15771" />
+    <option name="totalTimeSeconds" value="16285" />
     <option name="idleThresholdMs" value="150000" />
     <option name="autoCountIdleSeconds" value="50" />
     <option name="gitIntegration" value="true" />
@@ -120,7 +119,7 @@
       <workItem from="1710634788889" duration="628000" />
       <workItem from="1710637152082" duration="1491000" />
       <workItem from="1710752147211" duration="8000" />
-      <workItem from="1711096873440" duration="4798000" />
+      <workItem from="1711096873440" duration="5309000" />
     </task>
     <task id="LOCAL-00001" summary="add: created new next app">
       <option name="closed" value="true" />
@@ -306,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711100980028</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add: new IPostCard interface with user and isUserPage.&#10;&#10;add: Link to go to user, to link every post to a user and display respective user page">
+      <option name="closed" value="true" />
+      <created>1711102477620</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711102477620</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +354,8 @@
     <MESSAGE value="add: responsiveness for UserCard.tsx component" />
     <MESSAGE value="change: rename Post to PostCard.tsx component" />
     <MESSAGE value="add: responsiveness for PostCard.tsx component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: responsiveness for PostCard.tsx component" />
+    <MESSAGE value="add: new IPostCard interface with user and isUserPage.&#10;&#10;add: Link to go to user, to link every post to a user and display respective user page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: new IPostCard interface with user and isUserPage.&#10;&#10;add: Link to go to user, to link every post to a user and display respective user page" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

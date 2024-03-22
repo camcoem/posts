@@ -1,5 +1,4 @@
 import { IPost, IUser } from '@/types/types';
-import Image from 'next/image';
 import PostCard from '@/components/Post/PostCard';
 import UserCard from '@/components/UserCard/UserCard';
 
