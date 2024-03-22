@@ -1,5 +1,6 @@
 import { IPost, IUser } from '@/types/types';
 import Image from 'next/image';
+import Post from '@/components/Post/Post';
 
 const getUser = async (id: string) => {
   try {
@@ -69,14 +70,13 @@ export default async function UserWithId({ params }: { params: { id: string } })
         </h2>
         <ul className="flex flex-col gap-5">
           {posts.map((post) => (
-            <li key={post.id} className="flex w-full flex-col items-start text-primary">
-              <div className=" w-full rounded-full border border-secondary p-4 shadow-xl hover:bg-secondary/30">
-                <div className=" ml-4 text-xl text-tertiary hover:text-tertiary/50">
-                  {post.title ?? ''}
-                </div>
-                <div className="ml-4 text-sm text-primary">{post.body ?? ''}</div>
-              </div>
-            </li>
+            <Post
+              id={post.id}
+              body={post.body}
+              userId={post.userId}
+              title={post.title}
+              key={post.id}
+            />
           ))}
         </ul>
       </section>

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ea9d1b1-9ec2-40ea-95de-49841dfa5647" name="Changes" comment="add: image of avatar to user">
+      <change afterPath="$PROJECT_DIR$/app-client/src/components/Post/Post.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-client/src/app/posts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/posts/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-client/src/app/users/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="11744" />
+    <option name="totalTimeSeconds" value="12238" />
     <option name="idleThresholdMs" value="150000" />
     <option name="autoCountIdleSeconds" value="50" />
     <option name="gitIntegration" value="true" />
@@ -110,6 +112,10 @@
       <workItem from="1710450024129" duration="2509000" />
       <workItem from="1710491333895" duration="1000" />
       <workItem from="1710581826235" duration="15202000" />
+      <workItem from="1710634788889" duration="628000" />
+      <workItem from="1710637152082" duration="1491000" />
+      <workItem from="1710752147211" duration="8000" />
+      <workItem from="1711096873440" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="add: created new next app">
       <option name="closed" value="true" />
@@ -295,6 +301,14 @@
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
     {
     },
     {
