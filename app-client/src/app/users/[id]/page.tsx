@@ -1,6 +1,6 @@
 import { IPost, IUser } from '@/types/types';
 import Image from 'next/image';
-import Post from '@/components/Post/Post';
+import PostCard from '@/components/Post/PostCard';
 import UserCard from '@/components/UserCard/UserCard';
 
 const getUser = async (id: string) => {
@@ -46,7 +46,7 @@ export default async function UserWithId({ params }: { params: { id: string } })
         </h2>
         <ul className="flex flex-col gap-5">
           {posts.map((post) => (
-            <Post
+            <PostCard
               id={post.id}
               body={post.body}
               userId={post.userId}

@@ -1,6 +1,6 @@
 import { IPost } from '@/types/types';
 
-export default function Post(props: IPost) {
+export default function PostCard(props: IPost) {
   const { id, body, userId, title } = props;
 
   return (
