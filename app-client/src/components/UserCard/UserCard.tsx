@@ -9,17 +9,17 @@ export default function UserCard(props: IUserCard) {
   const { user } = props;
 
   return (
-    <section className="flex max-w-[600px] flex-col items-start gap-2 rounded-md bg-secondary/20 p-10">
+    <section className="md: flex h-[483px] w-[300px] max-w-[600px] flex-col items-start gap-2 rounded-md bg-secondary/20 p-10 transition-all hover:bg-secondary/10 md:w-[300px] lg:w-[400px] lg:items-center">
       <div className="flex w-full flex-col items-center">
         <Image
           src="/images/avatarImage.jpg"
           alt="Avatar of User"
           width={80}
           height={80}
-          className="rounded-full"
+          className="rounded-full hover:ring-2 hover:ring-secondary"
         />
       </div>
-      <h1 className="w-full text-center font-bold text-4xl tracking-widest text-tertiary">
+      <h1 className="w-full text-center font-bold text-2xl tracking-widest text-tertiary lg:text-3xl">
         {user.username}
       </h1>
       <p className="text-primary">aka: {user.name}</p>

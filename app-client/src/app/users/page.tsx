@@ -22,7 +22,7 @@ export default async function Users() {
 
   return (
     <div className="bg-main">
-      <ul className="flex w-full flex-col flex-wrap items-center justify-center gap-3 p-5 lg:flex-row">
+      <ul className="flex w-full flex-col flex-wrap items-center justify-center gap-3 p-5 md:flex-row">
         {users.map((user) => (
           <Link href={`/users/${user.id}`} key={user.id}>
             <UserCard user={user} />
