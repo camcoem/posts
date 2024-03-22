@@ -22,13 +22,7 @@ export default async function Posts() {
     <div className=" bg-main p-6">
       <ul className="flex flex-col gap-3">
         {posts.map((post) => (
-          <PostCard
-            id={post.id}
-            body={post.body}
-            userId={post.userId}
-            title={post.title}
-            key={post.id}
-          />
+          <PostCard post={post} key={post.id} />
         ))}
       </ul>
     </div>

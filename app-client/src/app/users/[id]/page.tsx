@@ -46,13 +46,7 @@ export default async function UserWithId({ params }: { params: { id: string } })
         </h2>
         <ul className="flex flex-col gap-5">
           {posts.map((post) => (
-            <PostCard
-              id={post.id}
-              body={post.body}
-              userId={post.userId}
-              title={post.title}
-              key={post.id}
-            />
+            <PostCard post={post} key={post.id} isUserPage={true} />
           ))}
         </ul>
       </section>
