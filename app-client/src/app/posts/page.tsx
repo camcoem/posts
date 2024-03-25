@@ -1,4 +1,5 @@
 import { IPost } from '@/types/types';
+import PostCard from '@/components/PostCard/PostCard';
 
 const getPosts = async () => {
   try {
@@ -21,14 +22,7 @@ export default async function Posts() {
     <div className=" bg-main p-6">
       <ul className="flex flex-col gap-3">
         {posts.map((post) => (
-          <li key={post.id} className="flex w-full flex-col items-start text-primary">
-            <div className=" w-full rounded-full border border-secondary p-4 shadow-xl hover:bg-secondary/30">
-              <div className=" ml-4 text-xl text-tertiary hover:text-tertiary/50">
-                {post.title ?? ''}
-              </div>
-              <div className="ml-4 text-sm text-primary">{post.body ?? ''}</div>
-            </div>
-          </li>
+          <PostCard post={post} key={post.id} />
         ))}
       </ul>
     </div>
